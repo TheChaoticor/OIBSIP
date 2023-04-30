@@ -8,7 +8,8 @@ public class TASK_GUESS_the_NUMBER {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
-		int T=sc.nextInt();
+		String inpt=JOptionPane.showInputDialog("Input number of times you want to play the game");
+		int T=Integer.parseInt(inpt);
 		int c=0;
 		while(T-->0) {
 			
